@@ -1,0 +1,548 @@
+body
+{
+    box-sizing: border-box;
+}
+.container-fluid
+{
+    margin:auto;
+    padding-left:100px;
+    padding-right:100px;
+}
+h2
+{
+    font-size: 35px;
+    font-weight: 700;
+    color:#444;
+}
+p
+{
+    color:#777;
+}
+/* start nav and home section */
+/* start background image section */
+header
+{
+    height: 650px;
+    background-size: cover;
+    background-position-x: 65% !important;
+    background: linear-gradient(
+        rgba(235, 49, 52,0.7),
+        rgba(235, 49, 52,0.7)
+      ),
+        url("../images/cover.jpg");
+}
+/* end background image section */
+/*start nav section*/
+nav
+{
+    padding: 0 !important;
+    position: fixed !important;
+    width:100%;
+    z-index: 99;
+}
+.bg-dark
+{
+    background-color: #1A1A1A !important;
+}
+nav  img
+{
+    padding: 0px 10px;
+    width: 90px;
+    max-width: 90px;
+    height: 70px;
+}
+.navbar-brand 
+{
+    font-weight: 600;
+}
+nav div ul li
+{
+    padding:15px 25px;
+}
+nav div ul li a
+{
+    font-size: 14px;
+    font-weight: 600;
+    color:#fff !important;
+}
+nav div ul li a:hover
+{
+    color:#DC3035 !important;
+}
+nav .container div .active
+{
+    border-bottom: 2px solid #DC3035;
+}
+nav .container div .active a
+{
+    color:#DC3035 !important;
+}
+/*end nav section*/
+/* start home section */
+.home .cover
+{
+    padding-top:180px;
+}
+.home .cover h1
+{
+    font-weight: 700;
+    font-size:3.5em;
+    color:white;
+    text-shadow: 0px 5px 10px #af2424;
+}
+.home .cover h3
+{
+    color:white;
+    font-size: 24px;
+}
+.home .cover a .btn
+{
+    color:white;
+    font-weight: 500;
+    border:2px solid white;
+    border-radius: 0;
+    margin-top:15px;
+    padding: 10px 20px;
+}
+.home .cover a .btn:hover
+{
+    background-color: white;
+    color:#EF5156;
+    border: none;
+    transition: all 0.8s ease-in-out;
+} 
+.angle
+{
+    margin-top: 100px;
+}
+.angle a
+{
+    text-decoration: none;
+    
+}
+.angle a .angl
+{
+    font-size:60px;
+    color:white;
+    animation-name: shady;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes shady
+{
+    0%{top:15px;}
+    50%{top:0;}
+    100%{top:15px;}
+}   
+/*end home section*/
+/*start about section*/
+.about p
+{
+    color:#8F8F8F;
+}
+.aboutme2 h4
+{
+    color:#444;
+    font-size: 20px;
+}
+.aboutme2 ul li
+{
+    display: inline;
+    margin: 5px;
+}
+.aboutme2 ul li a
+{
+    font-size: 40px;
+    color:#777;
+}
+.aboutme2 ul li a:hover
+{
+    color:#EC3237;
+    background-color: white;
+}
+/*end about section*/
+/*start myskills section*/
+.skills .two 
+{
+    height:100%;
+}
+.myskills .two .progress
+{
+    margin:10px 0;
+    height:15px;
+}
+.progress-bar {
+    background-color: #ec3237;
+}
+.myskills span
+{
+    color:#969696;
+    font-size: 14px;
+    font-weight: 600;
+}
+.myskills .two .pull-right
+{
+    float: right;
+}
+.myskills .myservice
+{
+    margin: 50px auto;
+}
+.myservice .btn
+{
+    color:white;
+    background-color: #ec3237;
+    border-radius: 0px;
+    padding:10px 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.myservice .btn:hover
+{
+    background-color:#C62D32;
+    transition: all 0.8s ease-in-out;
+}
+/*start myskills section*/
+/*start whatido section*/
+.what-i-do
+{
+    background-color: #F5F5F5;
+}
+.first-what .first-what-main
+{
+    border-right:10px  solid transparent;
+    border-bottom:35px  solid transparent;
+}
+.first-what .first-what-main .borderdiv
+{
+    background-color: white;
+    padding:10px 20px;
+    line-height: 25px;
+    width:100%;
+    box-shadow: 0px 1px 4px #6b45450d;
+}
+.first-what .first-what-main .borderdiv:hover h4
+{
+    color:#EC3237;
+} 
+.first-what .first-what-main .borderdiv i , h4 , p
+{
+    padding-top:10px;
+}
+.first-what .first-what-main .borderdiv h4
+{
+    font-weight: 600;
+    color:#444;
+    font-size: 20px;
+}
+.first-what .first-what-main .borderdiv .borderdivi
+{
+    font-size: 30px;
+    color:#777;
+    background-color: #F5F5F5;
+    padding:5px 10px;
+}
+.first-what .first-what-main .borderdiv:hover .borderdivi 
+{
+    color:white;
+    background-color: #EC3237;
+}
+.portfolio .btn
+{
+    color:white;
+    background-color: #ec3237;
+    border-radius: 0px;
+    padding:10px 25px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.portfolio .btn:hover
+{
+    background-color:#C62D32;
+}
+/*end whatido section*/
+/*start counter section*/
+.counter
+{
+    background-image: url("../images/project-counter.jpg");
+    background-size: cover;
+    height: 100%;
+    width:100%;
+    padding:80px 10px;
+}
+.counter .container-fluid
+{
+    color:#EC3237;
+}
+.counter  .container-fluid div .borderdiv
+{
+    text-align: center;
+    width:100%;
+    border:0.5px solid #777;
+    padding-left:5px;
+    padding-right:5px;
+}
+.counter  .container-fluid div .borderdiv .counteri
+{
+    font-size: 30px;
+}
+.counter  .container-fluid div .borderdiv h2
+{
+    color:white;
+    font-size: 40px;
+}
+.counter  .container-fluid div .borderdiv h4
+{
+    font-size: 20px;
+}
+/*end counter section*/
+/*start myportfolio section*/
+.my-portfolio
+{
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+    padding-left:10px;
+}
+.my-portfolio .portfolio-sections ul li
+{
+    display: inline-block;
+    background-color: transparent;
+    border:2px solid rgb(206, 198, 198);
+    border-radius: 0px;
+}
+.my-portfolio .portfolio-sections ul .btn-first
+{
+    background-color: #EC3237;
+    border:2px solid #EC3237;
+}
+.my-portfolio .portfolio-sections ul .btn-first a
+{
+    color:white;
+}
+.my-portfolio .portfolio-sections ul .btn-first a:hover
+{
+    color:white;
+}
+.my-portfolio .portfolio-sections li a
+{
+    color:#444;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.my-portfolio .portfolio-sections li a:hover
+{
+    color:#EC3237;
+}
+.my-portfolio .portfolio-sections li:hover
+{
+    border:2px solid #EC3237;
+}
+.my-portfolio .all-sections div
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.my-portfolio .all-sections div .main
+{
+    background-color: white;
+}
+.my-portfolio .all-sections div img
+{
+   width:100%;
+}
+.my-portfolio .all-sections div .all-sec-content
+{
+    border-right: 0;
+    width:100%;
+    position: relative;
+    z-index: 88;
+    bottom: 20px;
+}
+.my-portfolio .all-sections div .all-sec-content .maini
+{
+    padding:10px;
+    background-color: black;
+    font-size: 18px;
+    border-radius: 50%;
+    color:white;
+}
+.my-portfolio .all-sections .main:hover  .maini
+{
+    background-color: #EC3237;
+    color:white;
+}
+.get-touch
+{
+    margin: 50px auto;
+    text-align: center;
+}
+.get-touch .btn
+{
+    color:white;
+    background-color: #ec3237;
+    border-radius: 0px;
+    padding:10px 25px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.get-touch .btn:hover
+{
+    background-color:#C62D32;
+    transition: all 0.8s ease-in-out;
+}
+/*end myportfolio section*/
+/*start carousel section*/
+.caros 
+{
+    overflow: hidden;
+    background-size: cover;
+    background-image: url("../images/client-testimonial.jpg");
+    background-position-x: 65% !important;
+}
+.caros .caros-content
+{
+    text-align: center;
+    margin:70px 0;
+}
+.caros .caros-content div
+{
+    text-align: center;
+}
+.caros .caros-content div img
+{
+    border:5px solid #ec3237;
+    border-radius: 50%;
+}
+.caros .caros-content div p
+{
+    color:white;
+}
+.caros .caros-content div h3
+{
+    color:#ec3237;
+}
+.caros .caros-content div h6
+{
+    color:white;
+}
+/*end carousel section*/
+/*start footer*/
+.contact-form
+{
+    margin-bottom: 70px;
+}
+.hire-me h2
+{
+    font-size: 2.5em;
+    font-weight: 700;
+    color:#444;
+}
+.hire-me p , .contact p
+{
+    color:#7D7D7D;
+    font-weight: 300;
+    font-size: 18px;
+}
+.contact h4
+{
+    color:#444;
+    font-size: 18px;
+    font-weight: 700;
+}
+.mak
+{
+    font-size: 14px;
+}
+.mail
+{
+    text-decoration: none;
+    color:#D76A6D;
+}
+.mail:hover
+{
+    text-decoration: none;
+    color:#D76A6D;
+}
+.footlist ul li
+{
+    display: inline;
+    margin: 5px;
+}
+.footlist ul li a
+{
+    font-size: 40px;
+    color:#777;
+}
+.footlist ul li a:hover
+{
+    color:#EC3237;
+    background-color: white;
+}
+.main-form form div .form-control
+{
+    padding:20px 15px !important;
+    border-radius: 0 !important;
+    border:2px solid #CCCCCC;
+    color:red !important;
+    margin-bottom: 15px !important;
+}
+.main-form form div textarea
+{
+    height:180px !important;
+}
+.main-form form button
+{
+    border-radius: 0 !important;
+    background-color: #ec3237;
+    border:none;
+    padding:10px 25px;
+}
+.main-form form button:hover
+{
+    background-color:#C62D32;
+    transition: all 0.8s ease-in-out;
+}
+.lastdiv a
+{
+    text-decoration: none;
+    color:#D76A6D;
+}
+/*end footer*/
+
+@media only screen and (min-width: 600px) and (max-width:768px)
+{
+    .home .cover h1
+    {
+        font-size:2em;
+    }
+    .container-fluid
+    {
+        margin:auto;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media only screen and (max-width: 600px) 
+{
+    .home .cover h1
+    {
+        font-size:2em;
+    }
+    .container-fluid
+    {
+        margin:auto;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+   
+}
+@media only screen and (min-width: 768px) and (max-width:992px)
+{
+    
+}
+@media only screen and (min-width: 992px) and (max-width:1199px)
+{
+
+}
